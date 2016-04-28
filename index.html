@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Bootstrap: Grid System</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css.map">
 	<link rel="stylesheet" href="css/main.css">
 
     <!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
@@ -14,8 +15,118 @@
     <![endif]-->	
 </head>
 <body>
-	<!-- Inserta tu código aqui -->
-
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6">
+          <div>
+            <a class="navbar-brand" href="#">Site name</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <nav>
+            <ul class="nav navbar-nav">
+              <li>
+                <a href="#"><span class="glyphicon glyphicon-list-alt"></span>Noticias</a>
+              </li>
+              <li><a href="#"><span class="glyphicon glyphicon-tag"></span>Enlaces RSS</a></li>
+            </ul>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Ingresa tu búsqueda">
+                </div>
+                <button type="submit" class="btn btn-default">Buscar</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse"
+                data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Desplegar navegación</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Bienvenido</a></li>
+                <li><a href="#">Actualidades</a></li>
+                <li><a href="#">En directo</a></li>
+                <li><a href="#">Reporte financiero</a></li>
+                <li><a href="#">Nuestra oferta</a></li>
+                <li><a href="#">De nosotos a usted</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div> 
+    </div>
+  </header>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="historia">
+                <h3>Historia destacada</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="historia">
+                <p><a href="#">Artículo</a>Publicado el 09/10/15</p>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <h4>Lorem ipsum et diligat gentris</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec duit. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna.</p>
+              <p>
+                <a href="#"><span class="glyphicon glyphicon-bookmark"></span>Ver mas...</a>
+              </p>
+              <p>Etiquetas: <a href="#">lorem</a>
+              <a href="#">ipsum</a>
+              <a href="#">diligent</a> </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-12">
+              <div>
+                <h2>Historia destacada</h2>
+                  <!--INSERTAR VIDEO-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="row">
+            <div class="col-md-12">
+              <H2>Más información</H2>
+              <div class="information">
+                <div><span class="glyphicon glyphicon-bookmark"></span>Finanzas y fiscalización</div>
+                <div><span class="glyphicon glyphicon-bookmark"></span>Inversión y equipos</div>
+                <div><span class="glyphicon glyphicon-bookmark"></span>Medio ambiente</div>
+                <div><span class="glyphicon glyphicon-bookmark"></span>Habitat / Urbanismo</div>
+                <div><span class="glyphicon glyphicon-bookmark"></span>Sanidad</div>
+                <div><span class="glyphicon glyphicon-bookmark"></span>Social / Servicios</div>
+                <div><span class="glyphicon glyphicon-bookmark"></span>Transportes</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 	<!-- Incluir todos tus scripts apartir de este punto -->
     <!-- jQuery (necesario para que funcionen los componentes de Bootstrap) -->
     <script src="js/jquery-1.11.3.min.js"></script>
