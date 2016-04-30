@@ -1,2 +1,25 @@
 
 
+
+
+
+.rayen img {
+	width: 10%;
+	height: 10%;
+}
+.logo {
+	display: inline-block;
+}
+
+.fondo-color {
+	background-color: olive;
+	height: 200%;
+	padding: 5px 2px 70px 2px;
+}
+.video video {
+	height: 200%;
+	width: 100%;
+}
+
+
+
